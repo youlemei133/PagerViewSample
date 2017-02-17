@@ -36,5 +36,12 @@
             android:onClick="processClick"
             android:id="@+id/vp_transfomer"
             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.轮播图"
+            android:onClick="processClick"
+            android:id="@+id/vp_banner"
+            />
     </LinearLayout>
 </ScrollView>

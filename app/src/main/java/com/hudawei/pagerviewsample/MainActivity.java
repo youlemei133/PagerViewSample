@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.vp_transfomer:
                 startActivity(new Intent(this,TransformerActivity.class));
                 break;
+            case R.id.vp_banner:
+                startActivity(new Intent(this,BannerActivity.class));
+                break;
         }
     }
 }

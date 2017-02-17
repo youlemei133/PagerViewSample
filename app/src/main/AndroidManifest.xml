@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PagerAdapterActivity"/>
-        <activity android:name=".TransformerActivity"/>
+        <activity android:name=".TransformerActivity">
+        </activity>
+        <activity android:name=".BannerActivity"/>
     </application>
 
 </manifest>

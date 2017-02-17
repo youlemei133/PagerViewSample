@@ -64,9 +64,9 @@ public class TransformerActivity extends AppCompatActivity {
                 container.removeView(views.get(position));
             }
         };
-
-
-        viewPager.setPageMargin(40);
+        viewPager.setClipToPadding(false);
+        viewPager.setPadding(100, 0, 100, 0);
+        viewPager.setPageMargin(90);
         viewPager.setPageTransformer(false,new SimpleTransformer());
         viewPager.setAdapter(adapter);
     }
